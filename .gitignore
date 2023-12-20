@@ -1,0 +1,12 @@
+project/flagged/
+project/image/
+project/model/
+project/music/
+project/__pycache__/
+project/static/
+project/text/
+project/tts
+
+project/code/.generate_music.py.swp
+project/code/__pycache__/
+
