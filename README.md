@@ -14,8 +14,7 @@ pip install -r requirements.txt
 3. 우이준
 
 ## Purpose
-DYNAMIC DIARY는 사용자가 텍스트로 입력한 일기를 영상과 소리로 출력해주는 프로그램입니다. OpenVINO 프레임워크와 3가지 인공지능 모델을 사용하여 일기 내용을 소리내어 읽어주는 동시에 일기 내용과 연관된 영상(이미지)을 보여주고 연관된 음악을 들려줍니다.<br>
-현재 DYNAMIC DIARY에서 일기 내용과 연관된 음악을 출력하는 모델과 코드는 음악을 저장하는데 문제가 발생하여 제외된 상태입니다.<br><br>
+DYNAMIC DIARY는 사용자가 텍스트로 입력한 일기를 영상과 소리로 출력해주는 프로그램입니다. OpenVINO 프레임워크와 3가지 인공지능 모델을 사용하여 일기 내용을 소리내어 읽어주는 동시에 일기 내용과 연관된 영상(이미지)을 보여주고 연관된 음악을 들려줍니다.<br><br>
 The DYNAMIC DIARY is a program which takes a text entered by the user and outputs the appropriate image and sounds. Three artificial intelligence models are used with the OpenVINO framework to read out loud the diary entry, while simutaneously displaying an image and music related to the contents of the diary entry.<br>
 The accompanying music has been omitted, along with the corresponding A.I. model due to errors in saving the model output.<br><br>
 
@@ -37,7 +36,3 @@ Get API key from "https://makersuite.google.com/app/apikey"
 
 사용자가 일기를 작성하면 일기의 내용이 gemini 에게 전달되어서 일기에서 작성된 keyword 와 musical atmosphere를 얻는다.
 해당 keyword를 기반으로 이미지가 만들어지고, musical atmosphere로 음악이 만들어지며 작성한 내용이 TTS로 변환되어 GUI에서 출력이 된다.
-
-
-
-## Result
